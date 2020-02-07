@@ -1,0 +1,495 @@
+#header {
+    margin: 20px 0;
+}
+
+#header .container {
+    padding: 0 25px;
+}
+
+#header .head li {
+    margin-right: 20px;
+    font-size: 13px;
+
+}
+
+#header .head li:first-child {
+    color: rgb(218, 23, 23);
+}
+
+#header .head li:hover {
+    color: rgb(218, 23, 23);
+    cursor: pointer;
+}
+
+#header .right li {
+    padding: 0 10px;
+}
+
+#header .right li:hover {
+    cursor: pointer;
+}
+
+
+#header .right li:last-child {
+    border: 1px solid rgb(196, 188, 188);
+}
+
+/* ************
+    header end
+************** */
+
+#slider-top .slider-text {
+    padding: 20px;
+}
+
+#slider-top .container {
+    background: url(../photo/clock.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#slider-top .container img {
+    width: 100%;
+}
+
+#slider-top .slider-text {
+    margin-right: 15em;
+    padding-right: 5em;
+}
+
+#slider-top h1 {
+    font-size: 5em;
+    font-family: 'Righteous', cursive;
+    font-weight: 1000;
+    margin-bottom: 30px;
+}
+
+#slider-top p {
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    margin-bottom: 4em;
+}
+
+#slider-top h2 {
+    font-size: 2.5em;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 100;
+    margin-top: 2.5em;
+}
+
+#slider-top button {
+    border: 2px solid black;
+    padding: 15px 40px;
+    transition: 1s;
+}
+
+#slider-top button:hover {
+    border: none;
+    background-color: rgb(218, 23, 23);
+    cursor: pointer;
+}
+
+/* ***********
+slider-top end
+**************
+ */
+#slider-middle {
+    margin: 4em 2em;
+}
+
+#slider-middle .middle-img {
+    margin: 20px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+#slider-middle .middle-img img {
+    transition: 2s;
+}
+
+#slider-middle .middle-img:hover img {
+    transform: scale(1.1);
+}
+
+#slider-middle .mid-text h3 {
+    font-size: 20px;
+    color: #292929;
+}
+
+#slider-middle .mid-text h5 {
+    font-size: 15px;
+}
+
+#slider-middle .mid-text h5:hover {
+    cursor: pointer;
+}
+
+#slider-middle .mid-text h5::after {
+    content: "\f138";
+    font-family: "Font Awesome 5 Pro";
+    color: rgb(218, 23, 23);
+    font-size: 10px;
+    margin-left: 6px;
+}
+
+#slider-middle .mid-text {
+    position: absolute;
+    top: 35px;
+    left: 25px;
+}
+
+/* *********
+slide-middle end
+************ */
+
+#products .prod-text {
+    text-align: center;
+}
+
+#products .feater {
+    margin: 3em 6em;
+}
+
+#products .feater .box .btn-1 {
+    color: white;
+    background-color: black;
+    position: relative;
+}
+
+#products .feater .box button {
+    font-size: 13px;
+    color: #707070;
+    background: #f1f1f1;
+    border: none;
+    border-radius: 5px;
+    padding: 14px 30px;
+    transition: .6s;
+}
+
+#products .feater .box button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#products .new {
+    margin-bottom: 4em;
+}
+
+#products .new .new-img {
+    position: relative;
+}
+
+#products .new-radius button{
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    padding: 15px 10px;
+    background-color:rgb(218, 23, 23);
+    position: absolute;
+    top:12px;
+    left: 12px;
+
+}
+
+#products .new-faiz button{
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    padding: 15px 10px;
+    background-color:black;
+    position: absolute;
+    top:12px;
+    right: 12px;
+
+}
+
+#products .new .anima {
+    color: #707070;
+    background-color: white;
+    font-size: 23px;
+    position: absolute;
+    top:13em;
+    left:14px;
+    padding: 13px;
+    display: none;
+    transition: 3s;
+}
+
+#products .old:hover .anima {
+    animation: ani .4s;
+    display:flex;
+}
+
+@keyframes ani {
+    from {left:0;}
+    to {
+        left: 13px;
+    }
+}
+
+#products .new .stars{
+    margin: 15px;
+}
+
+#products .new .stars a {
+   color: #929292;
+   font-size: 14px;
+}
+
+#products .new .stars a:hover {
+    color:rgb(218, 23, 23) ;
+} 
+
+#products .new .stars ul {
+    margin-left: 3.3em;
+}
+
+#products .new .stars i {
+    color: #f5c60d;
+    font-size: 12px;
+ }
+
+ #products .new {
+     text-align: left;
+ }
+
+ #products .new h5 {
+     font-size: 18px;
+     margin: 10px 0;
+ }
+
+ #products .new h5:hover {
+   color: rgb(218, 23, 23);
+   cursor: pointer;
+   transition: .5s;
+    
+}
+
+ #products .new p {
+     color:rgb(218, 23, 23);
+     font-weight: bold;
+     font-size: 22px;
+ }
+
+/* ********
+products end
+*********** */
+
+#photo .photos {
+    overflow: hidden;
+}
+
+#photo .photos img {
+    transition: 2s;
+}
+
+#photo .photos:hover img {
+    transform: scale(1.1);
+}
+
+/* photos end */
+
+#advertising {
+    text-align: center;
+    margin: 5em 0;
+}
+
+#advertising h5 {
+    transition: 1s;
+    margin-top: 20px;
+}
+
+#advertising .co:hover h5 {
+    color: rgb(218, 23, 23);
+}
+
+#advertising .co p {
+    margin-top: 30px;
+    color: #929292;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#advertising  {
+    position: relative;
+}
+
+#advertising .container::after{
+    width: 90%;
+    height: 1px;
+    background-color:#929292;
+    content: '';
+    position: absolute;
+    top:15em
+}
+
+/* ***********
+advertising end 
+**************/
+
+#blog {
+    margin: 3em 0;
+    padding-top: 4em;
+}
+
+#blog .blog-text {
+    text-align: center;
+}
+
+#blog h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+#blog p {
+    color:#929292;
+}
+#blog .container {
+    margin-top: 4em;
+    position: relative;
+}
+
+#blog .container h3 {
+    margin:18px 0;
+}
+
+#blog .container p {
+    margin: 20px 0;
+    color:#929292;
+}
+
+#blog .container a {
+    color: black;
+    position: relative;
+    padding: 6px 0;
+    transition: 1s;
+    font-size: 20px;
+}
+
+#blog .container a::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color:#929292;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 1s;
+}
+
+#blog .container a:hover::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color:rgb(218, 23, 23);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#blog .container a:hover {
+    color: rgb(218, 23, 23);
+}
+
+#blog .container::after {
+    width: 100%;
+    height: 1px;
+    background-color:#929292;
+    content: '';
+    position: absolute;
+    top: 30em;
+}
+
+/* **********
+blog end
+*********** */
+
+#last {
+    margin: 9em 0;
+}
+
+#last .last-center {
+    text-align: center;
+}
+
+#last .container {
+    position: relative;
+}
+
+#last .container h1 {
+    margin: 20px;
+    font-size: 30px;
+}
+
+#last .container p {
+    color:#929292;
+}
+
+#last .mail-text {
+    margin-top: 3em;
+    position: relative;
+}
+
+#last .mail-text input {
+    border: 1px solid #929292;
+    outline:none;
+    width: 50%;
+    padding: 20px;
+}
+
+#last .mail-text button {
+    border: none;
+    padding: 15px 40px;
+    background-color: white;
+    position: absolute;
+    top: 6px;
+    right: 26%;
+    transition: 1s;
+}
+
+#last .mail-text button:hover {
+    color:rgb(218, 23, 23);
+    cursor: pointer;
+}
+
+#last .container::after {
+    height: 1px;
+    background-color:#929292;
+    content: '';
+    position: absolute;
+    top: 20em;
+    width: 100%;
+}
+/* ********
+last end
+********** */
+#footer {
+    margin: 2em 0;
+}
+
+
+#footer p {
+    color:#929292;
+}
+
+#footer ul li {
+    padding: 0 18px;
+    color:#929292 ;
+    transition: 1s;
+}
+
+#footer ul li:hover  {
+    color:rgb(218, 23, 23);
+    cursor: pointer;
+}
+
+#footer span {
+    color: rgb(218, 23, 23);
+}
+
+#footer span:hover {
+    cursor: pointer;
+}
+
