@@ -1,38 +1,74 @@
-#header {
-    margin: 20px 0;
+#header .menu li {
+    padding: 15px;
 }
 
-#header .container {
-    padding: 0 25px;
+#header .menu li a{
+    color: black;
+    text-decoration: none;
+    transition: .5s;
 }
 
-#header .head li {
-    margin-right: 20px;
-    font-size: 13px;
-
+#header .menu li a:hover {
+    color:rgb(218, 23, 23) ;
 }
 
-#header .head li:first-child {
-    color: rgb(218, 23, 23);
+#header .menu {
+    position: relative;
 }
 
-#header .head li:hover {
-    color: rgb(218, 23, 23);
-    cursor: pointer;
+#header .menu .drop-menu {
+    position: absolute;
+    width: 70%;
+    background-color: white;
+    top: 100%;
+    display: none;
 }
 
-#header .right li {
-    padding: 0 10px;
+#header .menu .drop:hover .drop-menu{
+    display: block;
 }
 
-#header .right li:hover {
-    cursor: pointer;
+#header .menu .drop-menu li {
+    padding: 6px 0;
 }
 
 
-#header .right li:last-child {
-    border: 1px solid rgb(196, 188, 188);
+#header .discover {
+    width: 70%;
+    right: 0;
+    top: 100%;
+    position: absolute;
+    background-color: white;
+    display: none;
 }
+
+#header .menu .drop:hover .discover {
+    display: block;
+}
+
+#header .discover p {
+    padding: 20px  0;
+}
+
+#header .discover .disco-img {
+    margin: 15px;
+    overflow: hidden;
+}
+
+#header .discover .disco-img img {
+    transition: .7s;}
+
+#header .discover .disco-img:hover img {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
 
 /* ************
     header end
@@ -243,12 +279,12 @@ slide-middle end
 } 
 
 #products .new .stars ul {
-    margin-left: 3.3em;
+    margin-left: 1.8em;
 }
 
 #products .new .stars i {
     color: #f5c60d;
-    font-size: 12px;
+    font-size: 10px;
  }
 
  #products .new {
@@ -448,7 +484,8 @@ blog end
     outline: none;
     top: 6px;
     right: 26%;
-    transition: 1s; border-left: 1px solid grey;
+    transition: 1s; 
+    border-left: 1px solid grey;
 }
 
 #last .mail-text button:hover {
@@ -471,13 +508,12 @@ last end
     margin: 2em 0;
 }
 
-
 #footer p {
     color:#929292;
 }
 
 #footer ul li {
-    padding: 0 18px;
+    padding: 0 16px;
     color:#929292 ;
     transition: 1s;
 }
